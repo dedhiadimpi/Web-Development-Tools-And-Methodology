@@ -1,0 +1,5 @@
+com\movie\filter\RequestWrapper.class
+com\movie\dao\MovieDao.class
+com\movie\pojo\Movie.class
+com\movie\controller\MovieController.class
+com\movie\filter\ScriptingFilter.class

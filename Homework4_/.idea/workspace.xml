@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d01ec265-dd34-429a-aab8-44941ce2b778" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Udemy/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Business/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/CreateJPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/CreateJPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/CreateJPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/CreateJPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/CreateJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/CreateJPanel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/MainJFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/MainJFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/MainJFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/MainJFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/MainJFrame.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/ViewJPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/ViewJPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/ViewJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/build/classes/Interface/ViewJPanel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/src/Business/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/src/Interface/CreateJPanel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/src/Interface/CreateJPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/src/Interface/MainJFrame.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/src/Interface/MainJFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/src/Interface/ViewJPanel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Assignments/Assignment_1/src/Interface/ViewJPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/src/main/java/Business/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/src/main/java/Interface/CreateJPanel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/src/main/java/Interface/CreateJPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/src/main/java/Interface/MainJFrame.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/src/main/java/Interface/MainJFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/src/main/java/Interface/ViewJPanel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/src/main/java/Interface/ViewJPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Business/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/CreateJPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/CreateJPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/CreateJPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/CreateJPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/CreateJPanel$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/CreateJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/MainJFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/MainJFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/MainJFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/MainJFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/classes/Interface/ViewJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AED/Lab/Lab_1/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aBhoteQf1p1e2VtNT8G3zpBs6b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d01ec265-dd34-429a-aab8-44941ce2b778" name="Default Changelist" comment="" />
+      <created>1586215072541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586215072541</updated>
+      <workItem from="1586215073799" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

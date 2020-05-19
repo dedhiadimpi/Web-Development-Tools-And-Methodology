@@ -1,0 +1,96 @@
+create database questionsAreWelcomedb;
+#Admin Table
+create table tbl_admin(
+admin_id int primary key auto_increment,
+username varchar(50) not null,
+password varchar(50) not null);
+
+insert into tbl_admin (username,password) values ("admin","admin");
+commit;
+
+#Approver Table
+create table tbl_approver_details(
+approver_id bigint primary key auto_increment,
+firstname varchar(50) not null,
+lastname varchar(50) not null,
+gender char not null CHECK (gender in ('M','F','O')),
+date_of_birth Date not null,
+address varchar(100) not null,
+email varchar(30) not null,
+phone_number varchar(20) not null,
+username varchar(10) not null,
+password varchar(50) not null
+);
+
+insert into tbl_approver_details (approver_id, firstname, lastname, gender, date_of_birth, address, email, phone_number, username, password)
+values (0,'DUMMY','DUMMY','O','2023-01-01','DUMMY', 'DUMMY', 'DUMMY', 'DUMMY', 'DUMMY');
+commit;
+
+insert into tbl_approver_details (firstname, lastname, gender, date_of_birth, address, email, phone_number, username, password)
+values ('Dimpi','Dedhia','F','1995-12-11','1574 Tremont Street, Boston, MA- 02120', 'dedhiadimpi@gmail.com', '+18578003368', 'dedhia.di', 'Dimpi@95');
+commit;
+
+#User Table
+create table tbl_user_details(
+user_id int primary key auto_increment,
+firstname varchar(50) not null,
+lastname varchar(50) not null,
+gender char not null CHECK (gender in ('M','F','O')),
+date_of_birth Date not null,
+address varchar(100) not null,
+email varchar(30) not null,
+phone_number varchar(20) not null,
+username varchar(10) not null,
+password varchar(50) not null
+);
+
+insert into tbl_user_details (firstname, lastname, gender, date_of_birth, address, email, phone_number, username, password)
+values ('Dhruvil','Shah','M','1995-12-11','1574 Tremont Street, Boston, MA- 02120', 'dedhiadimpi@gmail.com', '+18578003368', 'd', 'd');
+commit;
+
+insert into tbl_user_details (user_id,firstname, lastname, gender, date_of_birth, address, email, phone_number, username, password,userId)
+values (2,'Dimpi','Shah','F','1995-12-11','1574 Tremont Street, Boston, MA- 02120', 'dedhiadimpi@gmail.com', '+18578003368', 'a', 'a',2);
+commit;
+
+#Domain Table
+create table tbl_domain(
+domain_id bigint primary key auto_increment,
+domain_name varchar(50)
+);
+
+insert into tbl_domain (domain_name) values ('Space');
+insert into tbl_domain (domain_name) values ('History');
+insert into tbl_domain (domain_name) values ('Literature');
+insert into tbl_domain (domain_name) values ('Places');
+insert into tbl_domain (domain_name) values ('World Affairs');
+insert into tbl_domain (domain_name) values ('Health and Fitness');
+
+#Question Table
+create table tbl_questions(
+question_id int primary key auto_increment,
+question_title varchar(500) not null,
+question_description varchar(4000) not null,
+domain_id int,
+approver_id int,
+user_id int,
+FOREIGN KEY(domain_id) REFERENCES tbl_domain(domain_id),
+FOREIGN KEY(approver_id) REFERENCES tbl_approver_details(approver_id),
+FOREIGN KEY(user_id) REFERENCES tbl_user_details(user_id)
+);
+
+#Answer Table
+create table tbl_answers(
+question_id int primary key auto_increment,
+question_title varchar(500) not null,
+question_description varchar(4000) not null,
+domain_id int,
+approver_id int,
+user_id int,
+FOREIGN KEY(domain_id) REFERENCES tbl_domain(domain_id),
+FOREIGN KEY(approver_id) REFERENCES tbl_approver_details(approver_id),
+FOREIGN KEY(user_id) REFERENCES tbl_user_details(user_id)
+);
+
+
+
+insert into tbl_questions (question_title, question_description, domain_id, approver_id, user_id) values ('sds','sdcds',1,,1);

@@ -1,0 +1,5 @@
+com\movie\interceptor\ScriptingInterceptor.class
+com\movie\interceptor\RequestWrapper.class
+com\movie\dao\MovieDao.class
+com\movie\pojo\Movie.class
+com\movie\controller\MovieController.class

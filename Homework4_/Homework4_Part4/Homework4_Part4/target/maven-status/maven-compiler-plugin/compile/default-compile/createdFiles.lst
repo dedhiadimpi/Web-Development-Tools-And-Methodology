@@ -1,0 +1,3 @@
+com\movie\pojo\Movie.class
+com\movie\controller\MovieController.class
+com\movie\dao\MovieDao.class
